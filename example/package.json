@@ -1,0 +1,35 @@
+{
+  "name": "react-native-my-unity-example",
+  "description": "Example app for react-native-my-unity",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "pods": "pod-install --quiet",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.0.12",
+    "@react-navigation/stack": "^6.2.3",
+    "react": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-gesture-handler": "^2.6.0",
+    "react-native-keep-awake": "^4.0.0",
+    "react-native-reanimated": "^2.10.0",
+    "react-native-safe-area-context": "^4.3.3",
+    "react-native-screens": "^3.17.0",
+    "react-native-webview": "^11.23.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/runtime": "^7.12.5",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "metro-react-native-babel-preset": "^0.67.0",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
+    "ts-nameof.macro": "^4.2.2"
+  }
+}
